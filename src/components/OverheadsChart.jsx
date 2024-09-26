@@ -36,7 +36,7 @@ const OverheadsChart = ({ prodata, title, activeObject, stages, projects }) => {
         responsive: true,
         plugins: {
             legend: {
-                position: "top",
+                position: "left",
             },
             tooltip: {
                 callbacks: {
@@ -52,7 +52,9 @@ const OverheadsChart = ({ prodata, title, activeObject, stages, projects }) => {
     return (
         <div className='o-chart'>
             <p className='plate-title'>{title}</p>
-            <Pie data={data} options={options} />
+            <div style={{ рeight: '45vh' }}>
+                <Pie data={data} options={options} />
+            </div>
         </div>
     )
 }

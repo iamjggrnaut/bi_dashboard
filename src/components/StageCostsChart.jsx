@@ -39,7 +39,7 @@ const StageCostsChart = ({ prodata, title, activeObject, stages, projects }) => 
         responsive: true,
         plugins: {
             legend: {
-                position: "top",
+                position: "left",
             },
             tooltip: {
                 callbacks: {
@@ -57,7 +57,9 @@ const StageCostsChart = ({ prodata, title, activeObject, stages, projects }) => 
     return (
         <div className='sc-chart'>
             <p className='plate-title'>{title}</p>
-            <Doughnut data={data} options={options} />
+            <div style={{ height: '45vh' }}>
+                <Doughnut data={data} options={options} />
+            </div>
         </div>
     )
 }
