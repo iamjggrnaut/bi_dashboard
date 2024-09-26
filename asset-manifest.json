@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bi-dashboard/static/css/main.cee63462.css",
+    "main.js": "/bi-dashboard/static/js/main.89a90f30.js",
+    "static/media/bg.jpg": "/bi-dashboard/static/media/bg.b40d770a1895966f354e.jpg",
+    "index.html": "/bi-dashboard/index.html",
+    "main.cee63462.css.map": "/bi-dashboard/static/css/main.cee63462.css.map",
+    "main.89a90f30.js.map": "/bi-dashboard/static/js/main.89a90f30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cee63462.css",
+    "static/js/main.89a90f30.js"
+  ]
+}
